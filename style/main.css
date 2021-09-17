@@ -1,0 +1,65 @@
+/***********General************/
+
+body {
+	font-family: Corbel, Arial, sans-serif;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+/***********Header************/
+
+#header {
+	background-color: lightgreen;
+}
+
+h1 {
+	font-size: 36px;
+	margin: 0px;
+	text-align: center;
+	padding: 15px 0 0 0;
+	color: white;
+	text-transform: uppercase;
+}
+
+h2 {
+	text-align: center;
+	margin: 0;
+	color: white;
+}
+
+#nav {
+	background-color: seagreen;
+	text-align: center;
+	list-style-type: none;
+}
+
+#nav li{
+	display: inline-block;
+	padding: 6px 8px 6px 8px;
+}
+
+#nav li a{
+	color: white;
+}
+
+#nav li:hover {
+	background-color: darkseagreen;
+}
+
+/***********Content************/
+
+#content {
+	width: 600px;
+	margin: 30px auto;
+}
+
+#content h4 {
+	border-bottom: seagreen solid 3px;
+}
+
+#content a{
+	color: seagreen;
+}
